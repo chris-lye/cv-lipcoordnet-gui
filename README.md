@@ -8,12 +8,14 @@ Install other dependencies
 ``` pip install -r requirements.txt ``` 
 Run the app by: 
 ``` streamlit run app.py ``` 
+Please ensure that an empty 'samples' directory exists in the project folder before running the app.
 
 Use the upload page to lipread an already recorded video.
 
 Use the record page to record a video and proceed to generate the lip-read transcription. 
 
 For best results, speak a sentence of the style found in the Grid Audio Visual Corpus.(e.g. "put red at G9 now")
+
 
 ### Dependencies
 PyTorch 1.0+
